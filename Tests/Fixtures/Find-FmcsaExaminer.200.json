@@ -1,0 +1,41 @@
+{
+    "tokenData": {
+        "token": "xxx.yyy"
+    },
+    "data": {
+        "medicalExaminers": [
+            {
+                "nationalRegistryNumber": "0123456789",
+                "firstName": "First",
+                "lastName": "Last",
+                "salutation": "Dr.",
+                "suffix": "",
+                "medicalProfession": "Doctor of Chiropractic",
+                "stateName": "Minnesota",
+                "stateAbbr": "mn",
+                "statusId": "1",
+                "certificationLabel": "",
+                "certificationDate": "2024-01-01",
+                "removalDate": "",
+                "displayContact": true,
+                "addressLine1": "1234 Main Street",
+                "addressLine2": "",
+                "city": "City",
+                "zipcode": "00000",
+                "zipcodeExtension": "",
+                "operationHours": "",
+                "employerName": "Lorem Ipsum",
+                "businessName": "Lorem Ipsum",
+                "position": {
+                    "lat": "0.0",
+                    "lng": "0.0"
+                },
+                "website": "",
+                "phone": "1234567890",
+                "email": "first.last@domain.tld",
+                "faxNumber": "1234567890"
+            }
+        ],
+        "searchType": "NR_NUMBER"
+    }
+}
