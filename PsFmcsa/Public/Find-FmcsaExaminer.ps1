@@ -1,3 +1,16 @@
+<#
+.PARAMETER JWT
+The java web token.
+
+.PARAMETER RegistryID
+The examiner's national registry #.
+
+.EXAMPLE
+Find-FmcsaExaminer -JWT [token] -RegistryID '0123456789'
+
+.LINK
+https://nationalregistry.fmcsa.dot.gov/home
+#>
 function Find-FmcsaExaminer {
 
     [CmdletBinding()]
